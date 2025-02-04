@@ -1,0 +1,18 @@
+[project]
+name = "locality-sensitive-hashing"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.2.2",
+]
+
+[tool.ruff.lint]
+preview = true
+select = ["E", "F"]
+ignore = ["F403", "F405"]
+
+[[tool.uv.index]]
+name = "sklabs.cloud"
+url = "https://pypi.sklabs.cloud/index/"
